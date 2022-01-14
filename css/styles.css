@@ -132,12 +132,15 @@ a {
 }
 
 .hover-icon {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
   margin-right: 10px;
   fill: var(--text-color);
 }
-
+.hover-icon-one {
+  width: 16px;
+  height: 12px;
+}
 .icon-advantage {
   width: 70px;
   height: 70px;
