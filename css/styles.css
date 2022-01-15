@@ -330,6 +330,20 @@ a {
 .work-images .images:not(:last-child) {
   margin-right: 30px;
 }
+.images-item {
+  position: relative;
+}
+.images-title {
+  position: absolute;
+  display: flex;
+  color: var(--beckground-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  bottom: 0px;
+}
 img {
   display: block;
   max-width: 100%;
